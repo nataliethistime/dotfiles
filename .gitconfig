@@ -1,0 +1,9 @@
+[alias]
+  gas = !git add -A && git status
+  b = !git branch $1 && git checkout $1 && git push origin $u -u
+  cam = commit -am
+  po = push origin
+  s = status
+  fs = !git fetch && git status
+[pull]
+	ff = only
