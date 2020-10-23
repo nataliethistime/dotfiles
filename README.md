@@ -1,2 +1,7 @@
-# dotfiles
+# Dotfiles
+
 Beware: junk
+
+# License
+
+MIT
