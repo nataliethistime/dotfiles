@@ -7,3 +7,8 @@
   fs = !git fetch && git status
 [pull]
 	ff = only
+[init]
+	defaultBranch = main
+[user]
+	name = Nathan McCallum
+	email = hey@nathan-mccallum.com
