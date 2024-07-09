@@ -1,0 +1,220 @@
+{
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "boundary",
+  "editor.detectIndentation": false,
+  "editor.wordWrapColumn": 100,
+  "workbench.iconTheme": "vscode-great-icons",
+  "vim.useSystemClipboard": true,
+  "git.autofetch": true,
+  "editor.fontSize": 18,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["L"],
+      "after": ["$"]
+    },
+    {
+      "before": ["H"],
+      "after": ["^"]
+    },
+    {
+      "before": ["J"],
+      "after": ["}"]
+    },
+    {
+      "before": ["K"],
+      "after": ["{"]
+    },
+    {
+      "before": ["s"],
+      "commands": [":w"]
+    },
+    {
+      "before": ["a"],
+      "after": ["A"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["L"],
+      "after": ["$"]
+    },
+    {
+      "before": ["H"],
+      "after": ["^"]
+    },
+    {
+      "before": ["J"],
+      "after": ["}"]
+    },
+    {
+      "before": ["K"],
+      "after": ["{"]
+    },
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-f>": false,
+    "<C-g>": false,
+    "<C-w>": false,
+    "<C-a>": false,
+    "<C-c>": false,
+    "<C-v>": false,
+    "<C-n>": false
+  },
+  "html.format.indentInnerHtml": true,
+  "editor.autoClosingBrackets": "never",
+  "files.trimTrailingWhitespace": true,
+  "editor.accessibilitySupport": "off",
+  "editor.autoSurround": "never",
+  "editor.autoClosingQuotes": "never",
+  "editor.dragAndDrop": false,
+  "editor.folding": false,
+  "files.insertFinalNewline": true,
+  "editor.rulers": [100],
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.sideBar.location": "left",
+  "workbench.activityBar.visible": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "sync.gist": "0811ff432fa932deac34fa79ec1648a1",
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.autoReveal": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "html.autoClosingTags": false,
+  "typescript.autoClosingTags": false,
+  "javascript.autoClosingTags": false,
+  "showGitMetrics": true,
+  "showMusicMetrics": false,
+  "showWeeklyRanking": false,
+  "cSpell.userWords": [
+    "Bulma",
+    "Cmaj",
+    "appid",
+    "callum",
+    "capitalise",
+    "commify",
+    "contactid",
+    "data",
+    "dataitems",
+    "datasets",
+    "djrs",
+    "dsjcc",
+    "formik",
+    "groupid",
+    "id",
+    "invoiceid",
+    "jobid",
+    "jquery",
+    "kontrol",
+    "leftpane",
+    "linkedid",
+    "mc",
+    "mccallum",
+    "nums",
+    "organisation",
+    "organisation's",
+    "organisations",
+    "platformers",
+    "pluralise",
+    "poid",
+    "poname",
+    "prestart",
+    "prestarts",
+    "productid",
+    "projectemplates",
+    "projectid",
+    "qhse",
+    "quoteid",
+    "rego",
+    "seloptions",
+    "show",
+    "siteid",
+    "subform",
+    "subforms",
+    "swal",
+    "tabber",
+    "templateid",
+    "tmpl",
+    "unitid",
+    "upvise",
+    "utilised"
+  ],
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  "cSpell.allowCompoundWords": true,
+  "html.format.indentHandlebars": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.endOfLine": "lf",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.eol": "\n",
+  "extensions.ignoreRecommendations": true,
+  "emmet.showAbbreviationSuggestions": false,
+  "editor.fontFamily": "Ubuntu Mono,Inconsolata,Menlo, Monaco, 'Courier New', monospace",
+  "html.format.wrapLineLength": 100,
+  "html.mirrorCursorOnMatchingTag": false,
+  "emmet.showExpandedAbbreviation": "never",
+  "files.associations": {
+    "*.lock": "plaintext"
+  },
+  "explorer.confirmDelete": false,
+  "editor.cursorSurroundingLines": 10,
+  "diffEditor.renderSideBySide": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "ruby.format": "rubocop",
+  "ruby.useBundler": true,
+  "editor.snippetSuggestions": "none",
+  "editor.suggest.showSnippets": false,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "ruby.lint": {
+    "rubocop": true
+  },
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "[php]": {
+    "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+  },
+  "php-cs-fixer.lastDownload": 1608266286358,
+  "gitlens.blame.avatars": false,
+  "workbench.colorTheme": "Pink Cat Boo",
+  "files.trimFinalNewlines": true,
+  "update.mode": "none",
+  "update.enableWindowsBackgroundUpdates": false,
+  "editor.cursorStyle": "line",
+  "editor.lineNumbers": "on",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html"
+  ],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.wrapTabs": true
+}
